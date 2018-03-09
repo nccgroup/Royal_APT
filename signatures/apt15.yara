@@ -4,7 +4,7 @@
 rule clean_apt15_patchedcmd{
 	meta:
 		author = "Ahmed Zaki"
-        description = "This is a patched CMD. This is the CMD that RoyalCli uses."
+        	description = "This is a patched CMD. This is the CMD that RoyalCli uses."
 		sha256 = "90d1f65cfa51da07e040e066d4409dc8a48c1ab451542c894a623bc75c14bf8f"
     strings:
         $ = "eisableCMD" wide
@@ -18,7 +18,7 @@ rule clean_apt15_patchedcmd{
 
 rule malware_apt15_royalcli_1{
 	meta:
-        description = "Generic strings found in the Royal CLI tool"
+        	description = "Generic strings found in the Royal CLI tool"
 		author = "David Cannings"
 		sha256 = "6df9b712ff56009810c4000a0ad47e41b7a6183b69416251e060b5c80cd05785"
 
@@ -49,7 +49,7 @@ rule malware_apt15_royalcli_1{
 rule malware_apt15_royalcli_2{
 	meta:
 		author = "Nikolaos Pantazopoulos"
-        description = "APT15 RoyalCli backdoor"
+        	description = "APT15 RoyalCli backdoor"
 
 	strings:
 				
@@ -164,7 +164,7 @@ rule malware_apt15_exchange_tool {
 	meta:
 		author = "Ahmed Zaki"
 		md5 = "d21a7e349e796064ce10f2f6ede31c71"
-        description = "This is a an exchange enumeration/hijacking tool used by an APT 15"
+        	description = "This is a an exchange enumeration/hijacking tool used by an APT 15"
 
 	strings:
 		$s1= "subjectname" fullword
