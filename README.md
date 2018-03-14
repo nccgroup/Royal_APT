@@ -5,7 +5,7 @@ Royal APT - APT15 - Related Information from NCC Group Cyber Defense Operations 
 
 Among the tools developed by the group for the victim, APT15 created a .net tool to enumerate the victim's sharepoint database. Below is an screen-shot from the decompiled binary.
 
-![spweb](Royal_APT/images/spwebmember.png)
+![spweb](images/spwebmember.png)
 
 ## Decoding scripts
 Decoder scripts for BS2005 and RoyalCLI samples found by NCC Group can be found in the scripts directory. 
