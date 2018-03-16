@@ -34,3 +34,6 @@ Usage:
 
 ## Yara signatures
 Yara signatures for the RoyalCLI, RoyalDNS and BS2005 samples found by NCC Group can be found in `apt15.yara` in the signatures folder.
+
+## Suricata Signatures
+Suricata signatures for RoyalCLI, RoyalDNS and BS2005 samples found by NCC Group can be found in `ids_signatures_apt15_royal.txt` in the signatures folder.
